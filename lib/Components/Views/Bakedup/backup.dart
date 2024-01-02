@@ -71,20 +71,14 @@ class _BackUpState extends State<BackUp> {
                               children: [
                                 Text(
                                   "${userData?[i]['name']}",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 22,
-                                  ),
+                                  style: Global.size18,
                                 ),
                                 SizedBox(
                                   height: 5,
                                 ),
                                 Text(
-                                  "${userData?[i]['email']}",
-                                  style: TextStyle(
-                                    color: Colors.grey,
-                                    fontSize: 17,
-                                  ),
+                                  "${userData?[i]['number']}",
+                                  style: Global.size17,
                                   overflow: TextOverflow.ellipsis,
                                 ),
                               ],
